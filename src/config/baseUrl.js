@@ -1,2 +1,2 @@
-const BASE_URL = 'http://localhost/semantic-search';
+const BASE_URL = 'https://api.poridhi.buetrrm.com/';
 export { BASE_URL };
