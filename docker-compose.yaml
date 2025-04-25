@@ -1,0 +1,14 @@
+services:
+  poridhi-client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: poridhi-client
+    volumes:
+      - client-data:/app/client
+      - /app/client/node_modules
+    ports:
+      - "3000:3000"
+
+volumes:
+  client-data:
