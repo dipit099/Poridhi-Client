@@ -20,7 +20,7 @@ const Home = () => {
     console.log(`Searching for: "${query}" on page ${page}`);
 
     try {
-      const res = await fetch(`${BASE_URL}?query=${query}&page=${page}`);
+      const res = await fetch(`${BASE_URL}/semantic-search?query=${query}&page=${page}`);
       const data = await res.json();
 
       if (typeof data === "string" && data.toLowerCase().includes("no products")) {
