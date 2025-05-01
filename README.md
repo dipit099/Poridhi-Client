@@ -1,12 +1,19 @@
-# React + Vite
+# Intent-Based Search System
+We won the hackathon and became the **Champions** of the event !
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an implementation of an **Intent-Based Search System** developed as part of the AI Engineering Hackathon organized by **PORIDHI.IO** and **Brain Station 23**. The system aims to improve the search functionality of an e-commerce platform by leveraging advanced NLP and machine learning techniques to better understand and interpret user intent. 
 
-Currently, two official plugins are available:
+## How to run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Backend services
+1. Clone from https://github.com/dipit099/Poridhi
+2. Follow the readme file of that repo
 
-## Expanding the ESLint configuration
+### Frontend
+1. Clone this repo
+2. Build and run the containers using Docker Compose:
+```bash
+docker-compose up --build
+```
+3. Checkout the website at http://localhost:3000/
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
